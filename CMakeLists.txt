@@ -19,7 +19,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 link_directories(lib)  # googletest库文件目录
 
-include_directories(include)  #googletest头文件路径
+include_directories(gtest)  #googletest头文件路径
 # 添加可执行文件
 add_executable(CppAES  test1.cpp AES.cpp)
 target_link_libraries(CppAES libgtest.a -pthread)

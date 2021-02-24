@@ -16,4 +16,4 @@ cmake .. --DCMAKE_BUILD_TYPE=Debug
 make
 ./CppAES
 ```
-使用了google gtest，头文件依赖库分别在include, lib目录中，无须其他依赖即可使用。
+使用了google gtest，头文件依赖库分别在gtest, lib目录中，无须其他依赖即可直接使用。
